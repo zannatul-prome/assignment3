@@ -7,19 +7,20 @@
     
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="mx-96">
     <main>
-        <nav class="flex bg-[#FFF9F4] justify-around">
+        <nav class=" lg:flex bg-[#FFF9F4] justify-around ">
            
            
             <div class="flex justify-center gap-2 items-center">
+                <img class=" animate-pulse" src="c1-assets/bird-cartoon.png" alt="">
             <img  src="c1-assets/logo1.png" alt="">
-            <h1 class="text-lg">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
+            <h1 class=" lg:text-lg">Browse<span class="text-[#FFDC26] sm:hidden">4</span>Pets</h1>
            </div>
 
 
 
-           <div class="flex justify-center gap-4 items-center">
+           <div class="hidden  lg:flex justify-center gap-4 items-center">
             <a href="">Find a pet</a>
             <a href="">Breeds</a>
             <a href="">Contact us</a>
@@ -27,7 +28,7 @@
 
 
 
-           <div class="flex justify-center gap-2 items-center">
+           <div class="hidden lg:flex justify-center gap-2 items-center">
 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
@@ -37,12 +38,83 @@
               </svg>
               <button class="   border-2 border-[#FFDC26] rounded-md px-3 py-1">Login</button>
               <button class="bg-[#FFDC26] rounded-md px-3 py-1">Register</button>
-              
-
-
-           </div>
+            </div>
         </nav>
     </main>
     
+    
+     <section class="flex justify-around items-center sm:flex-col ">
+        <div class=" sm:justify-start lg:absolute px-72 left-36 space-y-3">
+            <h1 class="text-[#111111] font-semibold text-4xl">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
+            <p>Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="bg-[#FFDC26] rounded-md px-3 py-1 font-semibold ">Find a pet</button>
+        </div>
+
+        <img  class="w-3/5" src="c1-assets/cat-big.png" alt="">
+     </section>
+
+
+
+
+
+
+
+
+
+<section>
+    <h1 class="text-black text-3xl  ml-11 py-4"  >Browse By Categories</h1>
+<div class="grid grid-cols-6 justify-center items-center gap-7  ml-11">
+
+
+    <div class="flex flex-col justify-center items-center space-y-2 bg-[#F9DF8A] rounded-xl p-5 px-9">
+        <img class="rounded-full bg-white p-4" src="c1-assets/dog-cartoon.png" alt="">
+        <h1>Dog</h1>
+        <h2>3 items</h2>
+    </div>
+
+
+    <div class="flex flex-col justify-center items-center space-y-2 bg-[#F9DF8A] rounded-xl p-5 px-9">
+        <img class="rounded-full bg-white p-4" src="c1-assets/fish-cartoon.png" alt="">
+        <h1>Dog</h1>
+        <h2>3 items</h2>
+    </div>
+
+
+    <div class="flex flex-col justify-center items-center space-y-2 bg-[#F9DF8A] rounded-xl p-5  px-9">
+        <img class="rounded-full bg-white p-4" src="c1-assets/cat-cartoon.png" alt="">
+        <h1>Dog</h1>
+        <h2>3 items</h2>
+    </div>
+
+
+    <div class="flex flex-col justify-center items-center space-y-2 bg-[#F9DF8A] rounded-xl p-5  px-9">
+        <img class="rounded-full bg-white p-4" src="c1-assets/bird-cartoon.png" alt="">
+        <h1>Dog</h1>
+        <h2>3 items</h2>
+    </div>
+
+
+    <div class="flex flex-col justify-center items-center space-y-2 bg-[#F9DF8A] rounded-xl p-5  px-9">
+        <img class="rounded-full bg-white p-4" src="c1-assets/mouse-cartoon.png" alt="">
+        <h1>Dog</h1>
+        <h2>3 items</h2>
+    </div>
+
+
+    <div class="flex flex-col justify-center items-center space-y-2 bg-[#F9DF8A] rounded-xl p-5  px-9">
+        <img class="rounded-full bg-white p-4" src="c1-assets/rabbit-cartoon.png" alt="">
+        <h1>Dog</h1>
+        <h2>3 items</h2>
+    </div>
+
+</div>
+</section>
+
+
+
+
+<section>
+  <h1>Trending Pet Products</h1>
+</section>
 </body>
 </html>
